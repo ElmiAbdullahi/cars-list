@@ -23,5 +23,5 @@ build loadDataDetail function
 inside loadDataDetail we will call renderCarDetail
 - user should be able to click home button and should return to intial page
 how?
-build returnHomeButton.addEventListner
+build add anchor tag to <h1>
 
