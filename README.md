@@ -15,9 +15,9 @@ how?
 ++ browser is going to talk to supabase and import the list and details ++(export async function getcars-List())
  ++const dogs = await getcars-List();
 ++Loop through and rendercars-List
-- user should be able to cick a car and see the details
+- ++ user should be able to cick a car and see the details
 how?
-link the anchor tag 
+++ link the anchor tag 
 use getCars function to capture data supabase
 build loadDataDetail function 
 inside loadDataDetail we will call renderCarDetail
