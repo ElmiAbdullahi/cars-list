@@ -8,11 +8,11 @@ export function renderCarCard(car) {
 
     p.textContent = car.make;
     img.src = `./assets/${car.image}.png`;
-    a.href = `../detail/?id=${car.id}`; 
+    a.href = `../details-utils/?id=${car.id}`; 
     // link to the dog's detail page here
 
-    div.append(a, p, img);
+    div.append(p, img);
 
-
-    return div;
+    a.append(div);
+    return a;
 }

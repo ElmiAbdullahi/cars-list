@@ -12,9 +12,16 @@ Use the Supabase javascript library to retrieve a single item from a database
 ## Event
 - when user loads the page they should see the list of cars 
 how?
-++ browser is going to talk to supabase and import the list and details (export async function getcars-List())
- const dogs = await getcars-List();
- - Loop through and rendercars-List
+++ browser is going to talk to supabase and import the list and details ++(export async function getcars-List())
+ ++const dogs = await getcars-List();
+++Loop through and rendercars-List
 - user should be able to cick a car and see the details
-- user should be able to click home button and should return to intail page
+how?
+link the anchor tag 
+use getCars function to capture data supabase
+build loadDataDetail function 
+inside loadDataDetail we will call renderCarDetail
+- user should be able to click home button and should return to intial page
+how?
+build returnHomeButton.addEventListner
 
